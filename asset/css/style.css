@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f2f7f5;
+}
+
+nav {
+    background-color: #f2f7f5;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e6e6e6;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a{
+    padding: 8px;
+    color :#00473e;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #00473e;
+}
+
+nav .img {
+    height : 50px;
+    width : 300px;
+}
+
+.about {
+    padding: 100px 30px;
+    height : 120vh;
+}
+
+.about img{
+    width: 500px;
+    float: left;
+}
+
+.content-about {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi-about {
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px;
+    overflow: auto;
+    text-align: justify;
+    color: #475d5b;
+}
+
+.judul h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #00473e;
+    text-align: center;
+}
+
+.war {
+    height: 180vh;
+    padding: 100px 30px;
+    background-color: #00473e;
+    color: #fffffe;
+}
+
+.judul-war h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fffffe;
+    text-align: center;
+}
+
+.content1 {
+    text-align: justify;
+    padding: 20px 20px;
+}
