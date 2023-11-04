@@ -49,7 +49,7 @@ nav .img {
 
 .about {
     padding: 100px 30px;
-    height : 120vh;
+    height : 100vh;
 }
 
 .about img{
@@ -58,13 +58,13 @@ nav .img {
 }
 
 .content-about {
-    padding-top: 20px;
+    padding-top: 5rem;
     display: flex;
     justify-content: space-around;
 }
 
 .isi-about {
-    width: 500px;
+    width: 800px;
     height: 500px;
     padding: 10px 10px;
     overflow: auto;
@@ -80,11 +80,12 @@ nav .img {
 }
 
 .war {
-    height: 180vh;
+    height: 110vh;
     padding: 100px 30px;
     background-color: #00473e;
     color: #fffffe;
 }
+
 
 .judul-war h1 {
     font-size: 50px;
@@ -95,5 +96,32 @@ nav .img {
 
 .content1 {
     text-align: justify;
+    padding: 20px 20px;
+}
+
+.content1 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fffffe;
+}
+
+.content2 {
+    text-align: justify;
+    padding: 20px 20px;
+}
+
+.content2 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fffffe;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
     padding: 20px 20px;
 }
